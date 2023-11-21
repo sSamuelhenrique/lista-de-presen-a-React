@@ -28,7 +28,7 @@ export function Home() {
      setStudents(prevState => [...prevState, newStudent])
   }
  let student;
-
+/* comentario */
  useEffect(() =>{
       async function fetchData(){
         const response = await fetch('https://api.github.com/users/sSamuelhenrique');
